@@ -1,7 +1,7 @@
 body {}
 h1 {
 	font-family: "futura-pt", sans-serif;
-	font-size: 26px;
+	font-size: 1.5em;
 	font-weight: 600;
 	color: #000000;
 }
@@ -11,7 +11,7 @@ h4 {}
 h5 {}
 h6 {
 	font-family: "futura-pt", sans-serif;
-	font-size: 18px;
+	font-size: 1em;
 	font-weight: 400;
 	color: #000000;
 	text-transform: uppercase;
@@ -19,13 +19,14 @@ h6 {
 }
 p {
 	font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Book Antiqua', Georgia, serif;
-	font-size: 24px;
+	font-size: 1em;
 	line-height:1.5;
 	color: #B1B1B1;
 }
 a {
 	font-style: italic;
 	text-decoration: none;
+	color: #B1B1B1;
 }
 a:hover {
 	color: #606060;
@@ -34,4 +35,8 @@ a:hover {
 .wrapper {
 	width: 60%;
 	margin:0 auto;
+}
+
+.main {
+	margin-top: 2em;
 }
